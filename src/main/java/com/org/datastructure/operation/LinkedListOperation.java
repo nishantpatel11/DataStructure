@@ -1,4 +1,4 @@
-package com.org.common;
+package com.org.datastructure.operation;
 
 public class LinkedListOperation {
 

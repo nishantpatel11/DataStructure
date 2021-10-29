@@ -1,4 +1,4 @@
-package com.org.datastructure;
+package com.org.datastructure.sorting;
 
 public class QuickSort {
 

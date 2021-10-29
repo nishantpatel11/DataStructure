@@ -1,5 +1,8 @@
 package com.org.common;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class Utils {
 
     void permutation(String str, String ans){
@@ -10,4 +13,7 @@ public class Utils {
             permutation(str.substring(0,i)+str.substring(i+1),ans+str.charAt(i));
     }
 
+    Deque  de = new ArrayDeque();
+
+    void display(){}
 }
