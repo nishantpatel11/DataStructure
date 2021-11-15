@@ -18,6 +18,22 @@ public class StackOperation {
             list.add(data);
     }
 
+    public static void main(String args[]){
+        String str = new String("Hello");
+        String str1 = new String("Hello");
+        System.out.println(str == str1);
+        System.out.println(str.equals(str1));
+        StringBuilder sb = new StringBuilder("Hello");
+        System.out.println(sb.equals(str));
+        StringBuffer sb1 = new StringBuffer("");
+
+        sb1.equals(sb);
+//        sb1 == str;
+//        str == sb;
+
+
+    }
+
     public int push(){
         if(list.size() < 0)
             return -1;
